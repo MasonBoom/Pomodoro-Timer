@@ -12,7 +12,7 @@ function SessionInformation({ session, isPaused }) {
     <>
       <div className="row mb-2">
         <div className="col">
-          <h2 data-testid="session-title">{`${session.label} for ${session.duration} minutes`}</h2>
+          <h2 className="session" data-testid="session-title">{`${session.label} for ${session.duration} minutes`}</h2>
           <p className="lead" data-testid="session-sub-title">
             {`${secondsToDuration(session.timeRemaining)} remaining`}
           </p>

@@ -1,3 +1,21 @@
 .App {
   text-align: center;
 }
+
+h1 {
+  font-size: 6rem;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+
+.progress {
+  margin-top: 3rem;
+}
+
+.session {
+  margin-top: 8rem;
+}
+
+.btn-group {
+  margin-top: 3rem;
+}
